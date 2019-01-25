@@ -1,0 +1,55 @@
+/*Core Styles*/
+
+$sn-primary: #00407d;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+ul li {
+  font-family: "Asap";
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+strong {
+  color: $sn-primary;
+}
+
+.container-fluid.sn-header,
+.container-fluid.sn-footer,
+.btn-outline-dark:hover {
+  background-color: $sn-primary;
+}
+
+.sn-header .nav-link {
+  color: #fff;
+}
+
+.sn-icons {
+  background: url("../img/icon_sprite.png");
+  display: inline-block;
+  height: 30px;
+  width: 20px;
+}
+
+.sn-social-icons {
+    background: url("../img/social_icons.png");
+    display: inline-block;
+    height: 40px;
+    width: 50px; }
