@@ -1,23 +1,12 @@
-## Silentnight interview code test
+# silentnight
+Interview test
 
-##Overview
-Built using Bootstrap 4 and SASS.
-We create a task called sass, and inside of it, we have to tell it the src of these sass files. We first take the bootstrap.scss file in the node_modules folder, and then any * .scss file inside of our /src/scss folder. All files are compiled to css here /src/css.
-All code is built with a responsive view.
+# test expansion
+Next stages of development would be...
 
-##Test Expansion
-Next stages of this development would be as follows...
-
--add interactivity to the page with a carousel for the product images.
+-add interactivity to the page using a carousel for the product images
 -wire up the forms
--create a custom SASS variable file similar to \node_modules\bootstrap\scss\bootstrap.scss
-this would only import the required components and therefore improve performance.
--possibly look at React and convert all HTML to JSX and create components.
--Possibly move into an MVC environment and create partials for different areas of the page. eg. header, content and footer
-
-##Set Up
-run gulp command
-
-
-
-
+-I would create a custom import file similar to C:\Users\steho\Documents\Websites\SilentNight\node_modules\bootstrap\scss\bootstrap.scss
+This would allow me to import only the modules required from bootstrap to improve performance.
+-possibly move into a React app and convert HTML to JSX and sepertae into component
+-Possibly move into an MVC environment and create partial views for the header, content and footer.
